@@ -114,7 +114,7 @@ class _InfiniteScrollScreenState extends State<InfiniteScrollScreen> {
           child: isLoading
               ? SpinPerfect(
                   infinite: true,
-                  duration: Duration(microseconds: 300),
+                  duration: const Duration(microseconds: 300),
                   child: const Icon(Icons.refresh_rounded))
               : FadeIn(child: const Icon(Icons.arrow_back_ios_outlined))),
     );
