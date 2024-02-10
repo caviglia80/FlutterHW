@@ -1,3 +1,3 @@
-# widgets_app
+# Hola mundo con Flutter
 
-A new Flutter project.
+* Los Widgets mas utilizados con material 3.
